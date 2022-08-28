@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.home {
+  background-color: #111010;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin-top: 30px;
+  justify-content: center
+}
+
+.mainName {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cityName {
+  margin: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media screen and (min-width : 280px) and (max-width: 1024px) {
+  .App-header {
+    background-color: #111010;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .cities {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-top: 30px;
+    justify-content: center
+  }
+}
