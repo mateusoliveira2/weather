@@ -1,5 +1,7 @@
 # Sistema de previsão do tempo
 
+Link do deploy: https://singular-pasca-88d1d6.netlify.app/
+
 Versão desenvolvia para code challenge, apresentando alguns pontos de melhoria para conclusão fiel ao requerido.
 
 ## Como rodar
